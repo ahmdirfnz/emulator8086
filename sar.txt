@@ -1,0 +1,7 @@
+CL = 11b AX = 1000001011011b        after SAR
+CL = 11b AX = 1000001011b	      
+	      100000101101b    // cl,01H
+	      10000010110b     // cl,02H
+	      1000001011b      // cl,03H
+
+shifting right means dividing by 2

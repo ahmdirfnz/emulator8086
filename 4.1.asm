@@ -1,0 +1,18 @@
+CODE SEGMENT
+ASSUME CS:CODE, DS:CODE
+
+    		MOV AX, 42AH
+    		MOV BX, 2E5H
+    		MOV CX, 2H
+    		PUSH AX
+    		PUSH BX
+
+LEV:ADD AX,BX
+    		LOOP LEV
+   		MOV BX, AX
+    		POP AX
+    		HLT
+    
+CODE ENDS
+END
+
